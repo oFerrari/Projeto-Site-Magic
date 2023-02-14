@@ -14,6 +14,7 @@ body>header{    /* Filho direto */
     gap: 25px;
     align-items: center;
     padding-left: 18%;
+    flex-wrap: wrap;
 }
 
 .menu{
@@ -38,7 +39,9 @@ body>header{    /* Filho direto */
 
 .nossosJogos{
     background-image: url('../img/bg-nossos-jogos.jpg');
-    padding: 100px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
 }
 
 .artigos{
@@ -47,4 +50,23 @@ body>header{    /* Filho direto */
     align-items: center;
     gap: 20px;
     width: 100%;
+    padding: 50px;
+    flex-wrap: wrap ;
+}
+
+.artigos article{
+    width: 300px;
+    background: white;
+    height: 400px;
+}
+
+.artigos article h2{
+    padding: 15px;
+}
+.artigos article p{
+    padding : 20px;
+}
+.artigos article a{
+    color: #EA3601;
+    text-decoration: none;
 }
