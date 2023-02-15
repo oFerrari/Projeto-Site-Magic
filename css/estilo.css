@@ -70,3 +70,13 @@ body>header{    /* Filho direto */
     color: #EA3601;
     text-decoration: none;
 }
+
+footer{
+    background: #000000E6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
